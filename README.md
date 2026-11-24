@@ -114,6 +114,10 @@ docker compose down                              # stop everything
 
 ![Persistence test](docs/persistence.png)
 
+**Counter after `docker compose down -v` and `up` (counter starts from 1 hence prove data kept in the volume)**
+
+![Persistence test](docs/redis-data_prove.png)
+
 ## What I learned
 
 - How Compose defines a multi-container application in one file
