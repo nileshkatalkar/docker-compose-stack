@@ -1,4 +1,5 @@
-# Docker Compose Stack: Flask + Redis + Nginx
+# Multi-container app with Docker Compose
+## Docker Compose Stack: Flask + Redis + Nginx
 
 A three-container application run with Docker Compose. Nginx is the only public entry point, Flask serves the API, and Redis stores a hit counter that survives restarts.
 
